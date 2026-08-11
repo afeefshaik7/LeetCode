@@ -15,7 +15,7 @@ public:
         {
           sum=sum+v[i];
         }
-        for(int i=sum;i<55;i++)
+        for(int i=sum;i<=51;i++)
         {
             int c=0;
             for(int j=0;j<nums.size();j++)
