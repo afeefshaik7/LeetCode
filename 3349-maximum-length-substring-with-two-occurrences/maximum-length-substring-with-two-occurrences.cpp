@@ -6,9 +6,9 @@ public:
         {
             m[s[right]]++;
             c++;
-            for(auto i:m)
+            for(auto &i:m)
             {
-                if(i.second>=3)
+                while(i.second>=3)
                 {
                    m[s[left]]--;
                    left++;
