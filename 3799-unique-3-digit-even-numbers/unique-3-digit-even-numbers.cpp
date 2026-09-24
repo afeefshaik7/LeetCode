@@ -18,10 +18,8 @@ public:
                         k++;
                     }
                     if(k==d.size())break;
-                     c=a+b+d[k];
-                    }else{
-                     c=a+b+d[k];
                     }
+                     c=a+b+d[k];
                      if(c>=100 && c%2==0)
                     {
                         m[c]++;
